@@ -7,6 +7,15 @@ $font-awesome-url: "https://use.fontawesome.com/releases/v5.15.4/css/all.css" !d
 
 @import url($font-awesome-url);
 
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 .navbar {
     height: calc(var(--navbar-height) + var(--navbar-padding) * 2);
     width: 100vw;
@@ -19,7 +28,6 @@ $font-awesome-url: "https://use.fontawesome.com/releases/v5.15.4/css/all.css" !d
     justify-content: space-between;
     align-items: center;
     padding: var(--navbar-padding);
-    box-sizing: border-box;
 
     .fake-logo {
         height: 80%;
