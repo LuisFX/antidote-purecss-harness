@@ -1,0 +1,56 @@
+@import "./variables/all.scss";
+@import "./components/all.scss";
+
+@import "normalize.css";
+
+$font-awesome-url: "https://use.fontawesome.com/releases/v5.15.4/css/all.css" !default;
+
+@import url($font-awesome-url);
+
+.navbar {
+    height: calc(var(--navbar-height) + var(--navbar-padding) * 2);
+    width: 100vw;
+    background-color: lightcoral;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--navbar-padding);
+    box-sizing: border-box;
+
+    .fake-logo {
+        height: 80%;
+        width: 100px;
+        background-color: lightblue;
+    }
+
+    .burger-menu {
+        height: 80%;
+        width: 50px;
+        background-color: lightgreen;
+    }
+}
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+}
+
+.app-body {
+    margin-top: calc(var(--navbar-height) + var(--navbar-padding) * 2);
+    background-color: lightsalmon;
+    height: 100%;
+
+    .main-title {
+        text-align: center;
+    }
+}
