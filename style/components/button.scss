@@ -1,0 +1,18 @@
+button {
+    margin-top: .5em;
+    border: none;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    border-radius: 0.3em;
+    background: #ffffff;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    min-width: 100%;
+   }
+
+button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+    min-width: 100%;
+   }

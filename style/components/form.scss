@@ -1,0 +1,39 @@
+form  {
+    display: table;
+    padding: 2em;
+    // margin-left: 2em;
+    // margin-right: 2em;
+    min-width: 100%;
+}
+p     { display: table-row;  }
+label {
+    // color: gray;
+    font-size: 16px;
+    display: table-cell;
+}
+input { display: table-cell;
+    margin-top: .5em;
+    border: none;
+    // color: #090909;
+    padding: 0.7em .5em;
+    border-radius: 0.3em;
+    // background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -2px -6px -2px;
+    min-width: 100%;
+}
+textarea {
+    margin-top: .5em;
+    border: none;
+    // color: #090909;
+    padding: 0.7em .5em;
+    border-radius: 0.3em;
+    // background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px -2px -6px -2px;
+
+    min-width: 100%;
+    min-height: 100px;
+}

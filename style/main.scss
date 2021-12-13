@@ -16,6 +16,12 @@ html {
     box-sizing: inherit;
 }
 
+* {
+    font-weight: 200;
+    font-family: Oswald;
+    font-size: 18px;
+}
+
 .navbar {
     height: calc(var(--navbar-height) + var(--navbar-padding) * 2);
     width: 100vw;
@@ -55,7 +61,7 @@ body {
 
 .app-body {
     margin-top: calc(var(--navbar-height) + var(--navbar-padding) * 2);
-    background-color: lightsalmon;
+    // background-color: lightsalmon;
     height: 100%;
 
     .main-title {
